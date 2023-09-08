@@ -7,7 +7,7 @@
 
 a {
     text-decoration: none;
-    color: #a8a8a8;
+    color: #a8a8a8 ;
 }
 
 nav {
@@ -130,11 +130,14 @@ font-size: 14px;
     letter-spacing: 2px;
 }
 
+.font55{
 
+    font-size: 55px;
+}
 .baby {
     padding: 10px 0 15px 0;
-    font-size: 55px;
-    font-family: cursive;
+    font-family: 'Sriracha',handwriting, cursive;
+    /* font-weight: 400; */
     font-style: italic;
     color: #3e1f55;
 }
@@ -175,6 +178,43 @@ color: #828181;
     padding-bottom: 15px;
 }
 
+.three-items{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin: 10rem 0 5rem 0 ;
+}
+
+.three-items div{
+width: 22rem;
+height: 18rem;
+border-radius: 1.4rem;
+background-color: #f7f7f7;
+}
+.princess{
+    background-image: url(https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-promo-banner-blob-bg-1.svg);
+    background-repeat: no-repeat;
+background-position: bottom;
+}
+.essential{
+    background-image: url(https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-promo-banner-blob-bg-2.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.tous{
+    height:inherit;
+    border-radius: inherit;
+    background-image: url(https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-promo-banner-blob-bg-4.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+
+}
+.reen{
+    background-repeat: no-repeat;
+
+    
+    background-image: url(https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-promo-banner-blob-bg-3.svg);
+}
 .container {
     width: 100%;
 }
