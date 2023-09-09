@@ -1,6 +1,7 @@
 * {
     padding: 0%;
     margin: 0;
+    box-sizing: border-box;
 }
 
 /* body {} */
@@ -129,13 +130,17 @@ font-size: 14px;
     font-size: 11px;
     letter-spacing: 2px;
 }
+.font11{
+    font-size: 11px;
+
+}
 
 .font55{
 
     font-size: 55px;
+    padding: 10px 0 15px 0;
 }
 .baby {
-    padding: 10px 0 15px 0;
     font-family: 'Sriracha',handwriting, cursive;
     /* font-weight: 400; */
     font-style: italic;
@@ -192,13 +197,24 @@ border-radius: 1.4rem;
 background-color: #f7f7f7;
 }
 .princess{
+  padding: 30px 0;
     background-image: url(https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-promo-banner-blob-bg-1.svg);
     background-repeat: no-repeat;
 background-position: bottom;
 
 text-align: center;
 }
+.princess>p,{
+    font-weight: bold;
+}
 .text-princess{
+    font-size: 45px;
+}
+.princess-img{
+    margin-top: -25px;
+}
+.princess>h2{
+    padding-top: 20px;
 }
 .essential{
     background-image: url(https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-promo-banner-blob-bg-2.svg);
