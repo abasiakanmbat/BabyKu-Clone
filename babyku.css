@@ -195,6 +195,10 @@ background-color: #f7f7f7;
     background-image: url(https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-promo-banner-blob-bg-1.svg);
     background-repeat: no-repeat;
 background-position: bottom;
+
+text-align: center;
+}
+.text-princess{
 }
 .essential{
     background-image: url(https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-promo-banner-blob-bg-2.svg);
